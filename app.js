@@ -7,7 +7,8 @@ const nameTwoText = document.querySelector(".name2");
 // eventlisterners
 generatorBtn.addEventListener("click", generateName);
 
-//functions
+//functions 
+// generate two names random from name array, if it is the same name, generate again.
 function generateName(){
     const nameOne = names[Math.floor(Math.random()*names.length)];
     nameOneText.innerText = nameOne;
@@ -20,7 +21,3 @@ function generateName(){
     }
       
 }
-
-///hejeb
-
-//hehehe
